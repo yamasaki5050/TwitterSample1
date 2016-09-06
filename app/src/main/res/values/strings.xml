@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TwitterSample1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="twitter_consumer_key">5jMjVZE7sdnCW573g78p0zx2C</string>
+    <string name="twitter_consumer_secret">T6ZlVNnlogJJ8DPfXBtcVApvBa9kl2sOxjgG5iypH5KMrrznON</string>
+    <string name="twitter_callback_url">callback://twitter</string>
+</resources>

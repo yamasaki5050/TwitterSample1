@@ -6,12 +6,13 @@ import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class HomeActivity extends Activity implements ActionBar.TabListener {
+
+public class FindListActivity extends Activity implements ActionBar.TabListener {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_find_list);
 
 		final ActionBar mActionBar = getActionBar();
 
@@ -34,6 +35,10 @@ public class HomeActivity extends Activity implements ActionBar.TabListener {
 		Intent intent = new Intent();
 		switch (tab.getPosition()) {
 			case 0:
+				intent = new Intent();
+				intent.setClassName("com.example.yamasaki.twittersample1", "com.example.yamasaki.twittersample1.HomeActivity");
+				startActivity(intent);
+//				finish();
 				break;
 			case 1:
 				intent = new Intent();
@@ -48,10 +53,6 @@ public class HomeActivity extends Activity implements ActionBar.TabListener {
 //				finish();
 				break;
 			case 3:
-				intent = new Intent();
-				intent.setClassName("com.example.yamasaki.twittersample1", "com.example.yamasaki.twittersample1.FindListActivity");
-				startActivity(intent);
-//				finish();
 				break;
 		}
 	}
@@ -65,22 +66,4 @@ public class HomeActivity extends Activity implements ActionBar.TabListener {
 	public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
 
 	}
-
-//	@Override
-//	public boolean onCreateOptionsMenu(Menu menu) {
-//		getMenuInflater().inflate(R.menu.menu, menu);
-//
-//		return true;
-//	}
-//
-//	@Override
-//	public boolean onOptionsItemSelected(MenuItem item) {
-//		switch (item.getItemId()) {
-//			case R.id.menu1:
-//				// メニュー１選択時の処理
-//				break;
-//		}
-//		return super.onOptionsItemSelected(item);
-//	}
-
 }

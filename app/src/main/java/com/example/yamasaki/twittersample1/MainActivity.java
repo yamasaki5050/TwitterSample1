@@ -50,7 +50,13 @@ public class MainActivity extends Activity {
 			intent.setClassName("com.example.yamasaki.twittersample1", "com.example.yamasaki.twittersample1.OAuthActivity");
 			startActivity(intent);
 			finish();
+		}else{
+			Intent intent = new Intent();
+			intent.setClassName("com.example.yamasaki.twittersample1", "com.example.yamasaki.twittersample1.HomeActivity");
+			startActivity(intent);
+			finish();
 		}
+
 	}
 
 //	private final TwitterListener mListener = new TwitterAdapter() {

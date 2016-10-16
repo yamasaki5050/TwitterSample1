@@ -36,15 +36,15 @@
         android:layout_toRightOf="@+id/button1"
         android:text="検索" />
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/button1"
-        android:ems="10"
-        android:inputType="textMultiLine" />
+    <!--<EditText-->
+        <!--android:id="@+id/editText2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_below="@+id/button1"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textMultiLine" />-->
 
 </RelativeLayout>

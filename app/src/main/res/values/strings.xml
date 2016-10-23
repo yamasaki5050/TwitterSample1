@@ -6,4 +6,7 @@
     <string name="twitter_consumer_key">5jMjVZE7sdnCW573g78p0zx2C</string>
     <string name="twitter_consumer_secret">T6ZlVNnlogJJ8DPfXBtcVApvBa9kl2sOxjgG5iypH5KMrrznON</string>
     <string name="twitter_callback_url">callback://twitter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
